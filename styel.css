@@ -1,0 +1,72 @@
+KUJHVMV  Bhtml, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+.home {
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.main {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+
+
+footer p {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.ada {
+    padding: 10px;
+    font-size: 70px;
+}
+
+
+.star {
+    background-color: #89D4FF;
+    border-color: #89D4FF;
+    border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Menjaga gambar dan tombol sejajar vertikal di tengah */
+  gap: 20px;           /* Memberi jarak antar elemen tanpa merusak layout luar */
+  padding: 20px;
+}
+
+
+.consult-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: -170px;
+}
+
+.consult-img {
+    width: 550px;
+    margin-left: 1200px;
+    margin-top: -370px;
+    border-radius: 15px;
+}

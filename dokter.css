@@ -1,0 +1,68 @@
+
+        /* Full height untuk centering */
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Main content di tengah */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Service Card */
+        .service-box {
+            background-color: #e8f4f8;
+            border-radius: 8px;
+            aspect-ratio: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-box:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-box img {
+            max-width: 60%;
+            max-height: 60%;
+            object-fit: contain;
+        }
+        
+        /* Logo PKM */
+        .logo-pkm {
+            background-color: #dc3545;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .logo-pkm::after {
+            content: "+";
+            background-color: #28a745;
+            color: white;
+            padding: 2px 4px;
+            border-radius: 2px;
+            font-size: 10px;
+            margin-left: 4px;
+        }
+        
+        /* Footer di bawah */
+        footer {
+            flex-shrink: 0;
+        } 75884r oiiiiiiiiiiiiiiiiiiiiiiiiiiuiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit62hq5hrfgr54sdynsh
+gggggggggggggggg344EFH 
